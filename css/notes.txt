@@ -1,0 +1,24 @@
+CSS
+
+----
+cascading style sheets
+user experience of the content matters
+
+
+----
+Anatomy of a CSS rule
+
+p {
+ color: blue;	
+}
+
+p - selector
+color: blue - declaration 
+color - property
+blue - value
+
+collection of rules - style sheets
+default styles come from browser
+
+
+----

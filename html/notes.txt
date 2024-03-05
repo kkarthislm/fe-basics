@@ -1,0 +1,97 @@
+----
+three techs drives the web
+html, css, js -> structure, style, behaviour
+
+
+----
+what is HTML ?
+hypertext markup language
+hypertext - link to link
+hypermedia - link to media
+markup - annotate
+language - specifications (rules)
+
+----
+History of HTML
+1997 No standards and HTML 4.0 & 4.01 with standards
+2000 XHTML 1.0 & 2.0 - strict XML standards
+2004 WHATWG HTML
+2007 WHATWG + W3C
+2011 HTML 5.0
+*** w3c, caniuse.com ***
+verify the unpopular tags before use
+browser stats
+
+----
+Anatomy of an HTML tag
+<p> content </p>
+element name - p (no space allowed)
+opening <p>
+content
+ending </P>
+
+<p id="myId"> name </p>
+id - attribute name 
+myId - attribute value (must be unique in the whole html doc)
+each element can have multiple attributes
+
+<p/> self closing tag without any content
+
+----
+basic html doc structure
+bare min html doc
+<!DOCTYPE html> <!-- DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in --> 
+<html lang="en"> <!-- start , lang is must in new versions -->
+<head>
+	<meta charset="utf-8"> <!-- meta with out closing tag to state unicode -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+</body>
+</html>
+
+----
+content models
+https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content
+7 types of contents 
+needs to follow the hierarchy
+block level content and inline contents
+
+
+----
+Headings and semantics
+well chosen h1 element is crucial to SEO
+semantic elements allow more meaningful expression 
+
+Structuring content with Lists
+group contents
+unordered/ordered-lists ul/ol/li
+
+
+----
+character enitity references
+how to use these in html ? 
+<, > , &
+&lt; &gt; &amp;
+copyright &copy;
+non breaking space &nbsp;
+quote collapsed in other unicode formats &quot;
+
+
+----
+create links
+internal links other page in the site
+external links to other web sites
+fragments sections
+
+<a href="" titile="/>
+href - hypertext ref 
+
+
+----
+display images
+Use alt for visually impaired users
+Specify width and height when the slow rendering
+
+
